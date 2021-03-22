@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Personal Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="cv" />
+  <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+  <meta name="author" content="NamHT" />
+  <link rel="shortcut icon" href="favicon.ico">
+
+
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+  <link rel="stylesheet" href="css/animations.css" type="text/css">
+  <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+
+  <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+  <!-- Animated Background -->
+  <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+  <!-- /Animated Background -->
+
+  <!-- Loading animation -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="preloader-spinner">
+      </div>
+    </div>
+  </div>
+  <!-- /Loading animation -->
+
+  <div class="page">
+    <div class="page-content">
+
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="header-photo">
+            <img src="img/61912419_1667693006707360_9085582519562141696_n.jpg" alt="Alex Smith">
+          </div>
+          <div class="header-titles">
+            <h2>Ho Thanh Nam</h2>
+            <h4>Full-Stack Developer</h4>
+          </div>
+        </div>
+
+        <ul class="main-menu">
+          <li class="active">
+            <a href="#home" class="nav-anim">
+              <span class="menu-icon lnr lnr-home"></span>
+              <span class="link-text">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about-me" class="nav-anim">
+              <span class="menu-icon lnr lnr-user"></span>
+              <span class="link-text">About Me</span>
+            </a>
+          </li>
+          <li>
+            <a href="#resume" class="nav-anim">
+              <span class="menu-icon lnr lnr-graduation-hat"></span>
+              <span class="link-text">Resume</span>
+            </a>
+          </li>
+          <li>
+            <a href="#blog" class="nav-anim">
+              <span class="menu-icon lnr lnr-book"></span>
+              <span class="link-text">Blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-anim">
+              <span class="menu-icon lnr lnr-envelope"></span>
+              <span class="link-text">Contact</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://registry.namht.com" target="_blank">
+              <span class="menu-icon lnr lnr-rocket"></span>
+              <span class="link-text">Portal</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="social-links">
+          <ul>
+            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.facebook.com/NamHT94" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/NamHT94" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="header-buttons">
+          <a href="./assets/NAMHT_CV.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+        </div>
+
+        <div class="copyrights">© 2020 All rights reserved.</div>
+      </header>
+
+      <!-- Mobile Navigation -->
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- End Mobile Navigation -->
+
+      <div class="content-area single-page-area">
+        <div class="single-page-content">
+
+          <article class="post">
+
+            <div class="post-thumbnail">
+              <img src="img/blog/2982355.png" alt="image">
+            </div>
+
+            <div class="post-content">
+              <!-- /Entry header -->
+              <header class="entry-header">
+                <!-- Entry meta -->
+                <div class="entry-meta entry-meta-top">
+                  <span><a href="#" rel="category tag">Docker</a></span>
+                </div>
+                <!-- /Entry meta -->
+
+                <h2 class="entry-title">Docker cơ bản</h2>
+                <h5><a href="https://github.com/nProgrammer94/DevOpsLearning/blob/main/documents/1.Docker.md">read in my
+                    github</a></h5>
+              </header>
+              <!-- /Entry header -->
+
+              <!-- Entry content -->
+              <div class="entry-content">
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="col-inner">
+                      <ul>
+                        <li>Docker là cái vẹo gì? =&gt; la nền tảng để cung cấp cách để building, deploying và running
+                          ứng dụng dễ dàng hơn bằng cách sử dụng các containers.
+                          <br /><br /><br />
+                          <h3 id="m-t-s-nh-ngh-a-trong-docker">Một số định nghĩa trong Docker</h3>
+                          <br />
+                          <ul>
+                            <li>1. Container: Khi đóng gói một ứng dụng & tất cả các thành phần cần thiết (như một số
+                              thư viện) tạo thành 1 gói
+                              (package) thì gọi là Container.</li>
+                            <li>2. Images: là template để tạo ra các container. vd: thường triển khai website lên linux
+                              &
+                              nginx (hoặc apache) thì có thể
+                              xây dựng dựa trên 1 image CentOS & nginx có sẵn để chạy.</li>
+                          </ul>
+                        <li>3. Dockerfile: là một file kịch bản dựa vào file kịch bản này Docker sẽ dựa theo để build ra
+                          1
+                          image.</li>
+                        <li>4. Volumes: là phần dữ liệu được tạo ra khi container được khởi tạo.</li>
+                      </ul>
+                      <br />
+                      <h2 id="docker-architecture">Docker architecture</h2>
+                      <img src="https://github.com/nProgrammer94/DevOpsLearning/raw/main/images/architecture.svg"
+                        alt="image info">
+                      <br />
+                      <br />
+                      <h2 id="docker-compose">Docker compose</h2>
+                      <br />
+                      <ul>
+                        <li>Docker compose là công cụ để định nghĩa và run milti-container cho Docker. Ví dụ: nếu
+                          bạn có 3 image: BE, FE
+                          &amp; DB được đóng gói thành 3 image thì lúc này cần 1 công cụ để có thể chạy 3 image này
+                          &amp; 1 số setting
+                          khác...
+                          <img src="https://github.com/nProgrammer94/DevOpsLearning/raw/main/images/4.jpg"
+                            alt="image info">
+                          <br />
+                          <br />
+                          <h2 id="docker-basic-command">Docker basic command</h2>
+                          <br />
+                          <ol>
+                            <li>Command build image: docker build -t {name_image} .</li>
+                            <li>Command run image: docker run -d -p {port binding - 5000:80} -- name
+                              {name_container} {name_image}</li>
+                            <li>Run Compose: docker-compose up</li>
+                            <li>Build Compose: docker-compose build</li>
+                            <li>Scale Compose: docker-compose scale [tên service] = [số lượng]
+                            </li>
+                        </li>
+                        </ol>
+                        </li>
+                        <br />
+                        <br />
+                        <h2 id="docker-swarm-va-kubernetes-k8s-">Docker Swarm va Kubernetes (k8s)</h2>
+                        <br />
+                        <li>Khi nói về Docker không thể không đề cập tới <strong>container</strong> đầu tiên như
+                          tiêu chuẩn mở để đóng gói
+                          &amp; phân phối các ứng dụng container thì đã nãy sinh ra một vấn đề mới. Làm thế nào để
+                          tất cả containers được
+                          điều phối và lên lịch? làm thể nào để nâng cấp một cách liền mạch mà không bị gián đoạn
+                          dịch vụ? Làm cách nào để
+                          tracking status của ứng dụng, biết khi nào có sự cố và khởi động lại ứng dụng đó một cách
+                          kịp thời?<br> <img src="https://github.com/nProgrammer94/DevOpsLearning/raw/main/images/2.png"
+                            alt="image info"> </li>
+                        <br />
+                        <li>Lúc này hệ thống điều phối là cần thiết.<ul>
+                            <li>Docker Swarm: cung cấp cách quản lý một số lượng lớn các container trải rộng trên
+                              các cụm máy chủ do
+                              Docker tao ra.</li>
+                            <li>Kubernetes: là bộ điều phối container được phát triển tại Google, đã được tài trợ
+                              cho CNCF và hiện là mã
+                              nguồn mở.</li>
+                          </ul>
+                        </li>
+                        <li><strong>Tổng kết:</strong> Kubernetes là một hệ thống toàn diện để tự động hóa việc
+                          triển khai, lập lịch và mở
+                          rộng quy mô của các ứng dụng được container hóa. Hiện tại, Kubernetes là công ty dẫn đầu
+                          thị trường và là tiêu
+                          chuẩn cho các bộ điều phối container và deploy các ứng dụng phân tán. Kubernetes có thể
+                          chạy được trên các dịch
+                          vụ đám mây hoặc tại chỗ (on-premise), có tính mô-đun cao, mã nguồn mở và có một cộng đồng
+                          sôi động.</li>
+                      </ul>
+                      </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /Entry content -->
+
+              <div class="entry-meta entry-meta-bottom">
+                <div class="date-author">
+                  <span class="entry-date">
+                    <a href="#" rel="bookmark">
+                      <i class="far fa-clock"></i> <span class="entry-date"> March 16, 2021</span>
+                    </a>
+                  </span>
+                  <span class="author vcard">
+                    <a class="url fn n" href="#" rel="author"> <i class="fas fa-user"></i> NamHT</a>
+                  </span>
+                </div>
+
+                <!-- Share Buttons -->
+                <div class="entry-share btn-group share-buttons">
+                  <a href="https://www.facebook.com/NamHT94"
+                    onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    class="btn" target="_blank" title="Share on Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+
+                  <a href="https://twitter.com/NamHT94"
+                    onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    class="btn" target="_blank" title="Share on Twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://twitter.com/NamHT94"
+                    onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    class="btn" target="_blank" title="Share on github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+                <!-- /Share Buttons -->
+              </div>
+
+              <div class="post-tags">
+                <div class="tags">
+                  <a href="#" rel="tag">Docker basics</a>
+                  <a href="#" rel="tag">DevOps</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/animating.js"></script>
+
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+  <script src='js/perfect-scrollbar.min.js'></script>
+  <script src='js/jquery.shuffle.min.js'></script>
+  <script src='js/masonry.pkgd.min.js'></script>
+  <script src='js/owl.carousel.min.js'></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+  <script src="js/jquery.googlemap.js"></script>
+  <script src="js/validator.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
