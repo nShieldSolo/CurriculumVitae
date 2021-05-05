@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "marked": "^2.0.1"
+  },
+  "scripts": {
+    "gzipper": "gzipper",
+    "compress": "gzipper compress ./dist"
   }
 }
